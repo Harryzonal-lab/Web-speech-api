@@ -107,7 +107,7 @@ function playNote(note, startTime, duration) {
   oscillator.stop(startTime + duration);
 }
 
-
+//play melody
 function playMelody() {
   audioContext.resume().then(function () {
     let startTime = audioContext.currentTime;
